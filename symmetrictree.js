@@ -48,8 +48,8 @@ queue.push(root)
 queue.push(root)
     
 while (queue.length > 0) {
-    let node1 = queue.pop()
-    let node2 = queue.pop()
+    let node1 = queue.shift()
+    let node2 = queue.shift()
         
     if (!node1 && !node2) {
         continue
